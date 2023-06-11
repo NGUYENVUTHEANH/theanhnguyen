@@ -1,0 +1,637 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 2px;
+} */
+
+.head0 {
+    position: relative;
+}
+
+.head {
+    /* position: fixed; */
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head1122 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.head1122 input {
+    width: 230px;
+    height: 35px;
+}
+
+.head11 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    width: 100%;
+    height: 33px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 1px solid #eeeeee;
+}
+
+.head2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border: 1px solid #eeeeee;
+}
+
+.head1111 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head111 {
+    width: 50%;
+    color: #999999;
+    display: flex;
+    padding: 5px 5px 5px 30px;
+    flex-direction: row;
+}
+
+.head121 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head13 {
+    background-color: #EFEFEF;
+    padding: 5px;
+    font-size: 16px;
+    margin: 55px 130px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: black;
+}
+
+/* .add {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    font-size: 18px;
+} */
+
+.head112 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head113 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head114 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head115 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head21 {
+    width: 25%;
+    font-size: 35px;
+    padding: 13px 6px 6px 30px;
+}
+
+
+.head23:hover {
+    border-bottom: 4px solid pink;
+}
+
+
+.head22 {
+    width: 25%;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.head23 {
+    width: 12.5%;
+    padding-top: 25px;
+
+}
+
+.sneakers {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .sneakers {
+    display: block;
+}
+
+.streetwear {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .streetwear {
+    display: block;
+}
+
+.trading {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .trading {
+    display: block;
+}
+
+.highbrand {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .highbrand {
+    display: block;
+}
+
+.head28 {
+    padding-left: 30px;
+    background-color: rgb(255, 192, 203);
+    width: 13vw;
+}
+
+.head28:hover {
+    background-color: white;
+    color: pink;
+}
+
+.head23 a {
+    padding-left: 40px;
+}
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    /* position: relative; */
+    margin: auto;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev,
+.next {
+    /* cursor: pointer;
+    position: absolute; */
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    /* position: absolute; */
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    /* position: absolute; */
+    top: 0;
+}
+
+
+.dot {
+    /* cursor: pointer; */
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.add2333 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    content: 20px solid rgb(253, 253, 253);
+}
+
+.add1333 {
+    display: none;
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 192, 203);
+    top: 40px;
+    left: 1000px;
+    border-radius: 15px;
+}
+
+.add21333 {
+    position: absolute;
+    left: -30px;
+    top: 40px;
+}
+
+.add22333 {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+.add23333 {
+    position: relative;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    content: 20px solid rgb(253, 253, 253);
+}
+
+.add223333 {
+    position: absolute;
+    top: -30px;
+    right: 40px;
+}
+
+
+
+
+.head9 {
+    background: pink;
+    color: white;
+}
+
+.head91 {
+    margin: 100px 100px 20px 100px;
+    padding-top: 40px;
+    font-size: 27px;
+}
+
+.head92 {
+    margin: 0 100px 0 100px;
+}
+
+tr td a {
+    color: #989898;
+}
+
+tr td a b {
+    font-size: 20px;
+    color: white;
+}
+
+hr {
+    margin: 50px 0 50px 0;
+    color: #989898;
+}
+
+.head93 {
+    margin: 50px 0 20px 0;
+    font-size: 27px;
+}
+
+.head94 a {
+    color: #989898;
+    margin-right: 15px;
+}
+
+.head95 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.head95 a {
+    margin: 10px;
+}
+
+.head952 {
+    font-size: 27px;
+    margin: 10px 0 10px 0;
+}
+
+.head953 {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.head954 {
+    font-size: 12px;
+    color: #989898;
+}
+
+.jss a {
+    margin-right: 25px;
+}
+
+.js a {
+    margin-right: 135px;
+}
+
+
+
+.add1 {
+    width: 1700px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.add img {
+    width: 500px;
+    height: 570px;
+}
+
+.add1 img {
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.add111 {
+    display: flex;
+    margin: 50px 150px;
+}
+
+.head4 {
+    height: 570px;
+    margin-left: 50px;
+    color: pink;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.head42 {
+    font-size: 20px;
+}
+
+.head43 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.head4311 {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3px;
+    border: 1px solid pink;
+    background-color: pink;
+    color: white;
+}
+
+.head4312 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3px;
+    border: 1px solid pink;
+    background-color: white;
+    color: pink;
+    margin-top: -43px;
+}
+
+.head4313 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3px;
+    border: 1px solid pink;
+    background-color: white;
+    color: pink;
+    margin-top: -43px;
+}
+
+.head431:hover .head4312 {
+    display: block;
+
+}
+
+.head44 button {
+    width: 100%;
+    height: 70px;
+    border-radius: 30px;
+    border: 1px solid pink;
+    margin-top: 10px;
+
+}
+
+.head442 {
+    background-color: pink;
+    color: white;
+}
+
+.head442:hover {
+    background-color: rgba(250, 200, 210, 0.67);
+    border: 1px solid pink;
+    color: pink;
+}
+
+.head441 {
+    margin-top: 40px;
+}
+
+.head51 img {
+    width: 85%;
+    margin: 100px 100px;
+}
+
+.head52 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.timtim {
+    display: none;
+}
+
+.giohang1 {
+    position: relative;
+}
+
+.giohang2 {
+    display: none;
+    position: absolute;
+    color: black;
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+    margin-top: 33px;
+    background-color: pink;
+}
+
+.giohang22 {
+    display: flex;
+}
+
+.giohang220 {
+    margin-top: 15px;
+}
+
+.giohang22 img {
+    width: 90px;
+    height: 100px;
+    margin: 15px 25px 0 0;
+}
+
+
+
+
+
+
+.head513 img {
+    width: 85%;
+    margin: 100px 100px;
+}
+
+.head523 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .head22 {
+        display: none;
+    }
+
+
+    .head23 a {
+        padding-left: 1px;
+        font-size: 10px;
+    }
+
+    .head21 {
+        padding-left: 10px;
+        font-size: 22px;
+    }
+
+    .head28 {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .head111 {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .head1111 div {
+        font-size: 15px;
+    }
+}

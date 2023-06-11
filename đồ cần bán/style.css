@@ -1,0 +1,123 @@
+.head3321 a img {
+    width: 150px;
+    height: 150px;
+}
+
+/* .head form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+} */
+
+/* .head form label {
+    margin-left: 75px;
+} */
+
+.head {
+    margin: 0 50px;
+}
+
+.head22 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.head22 td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.head22 tr :nth-child(even) {
+    background-color: #b9b9b9;
+}
+
+.head211 {
+    width: 15%;
+}
+
+.head212 {
+    width: 30%;
+}
+
+.head213 {
+    width: 15%;
+}
+
+.head214 {
+    width: 15%;
+}
+
+.head215 {
+    width: 25%;
+}
+
+.head221 {
+    width: 17%;
+}
+
+.head222 {
+    width: 30%;
+}
+
+.head223 {
+    width: 15%;
+}
+
+.head224 {
+    width: 15%;
+}
+
+.head225 {
+    width: 10%;
+}
+
+.head3 {
+    display: flex;
+}
+
+.head31 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10%;
+}
+
+.head311 img {
+    width: 12%;
+    margin-right: 20px;
+}
+
+.head34 {
+    display: none;
+}
+
+.head421 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.head421 img {
+    margin: 50px;
+}
+
+.head4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head7 {
+    display: flex;
+    flex-wrap: wrap;
+}

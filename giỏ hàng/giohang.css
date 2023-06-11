@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 2px;
+} */
+
+.head0 {
+    position: relative;
+}
+
+.head {
+    /* position: fixed; */
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head1122 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.head1122 input {
+    width: 230px;
+    height: 35px;
+}
+
+.head11 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    width: 100%;
+    height: 33px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 1px solid #eeeeee;
+}
+
+.head2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border: 1px solid #eeeeee;
+}
+
+.head1111 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head111 {
+    width: 50%;
+    color: #999999;
+    display: flex;
+    padding: 5px 5px 5px 30px;
+    flex-direction: row;
+}
+
+.head121 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head13 {
+    background-color: #EFEFEF;
+    padding: 5px;
+    font-size: 16px;
+    margin: 55px 130px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: black;
+}
+
+/* .add {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    font-size: 18px;
+} */
+
+.head112 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head113 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head114 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head115 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.head21 {
+    width: 25%;
+    font-size: 35px;
+    padding: 13px 6px 6px 30px;
+}
+
+
+.head23:hover {
+    border-bottom: 4px solid pink;
+}
+
+
+.head22 {
+    width: 25%;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.head23 {
+    width: 12.5%;
+    padding-top: 25px;
+
+}
+
+.sneakers {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .sneakers {
+    display: block;
+}
+
+.streetwear {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .streetwear {
+    display: block;
+}
+
+.trading {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .trading {
+    display: block;
+}
+
+.highbrand {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* width: 100vw; */
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.head23:hover .highbrand {
+    display: block;
+}
+
+.head28 {
+    padding-left: 30px;
+    background-color: rgb(255, 192, 203);
+    width: 13vw;
+}
+
+.head28:hover {
+    background-color: white;
+    color: pink;
+}
+
+.head23 a {
+    padding-left: 40px;
+}
+
+.head3 {
+    display: flex;
+    margin: 50px 10%;
+    color: pink;
+}
+
+.head33 {
+    width: 65%;
+
+
+}
+
+
+.head31 img {
+    width: 30%;
+    height: 25vh;
+}
+
+.head311 {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head3111 {
+    width: 100%;
+    right: 0;
+    margin-right: -200px;
+    margin-top: 30px;
+}
+
+.head3111 button {
+    margin: 20px 50px;
+    padding: 4px;
+    width: 35%;
+    border-radius: 6px;
+    border: 1px solid white;
+    background-color: pink;
+    color: white;
+}
+
+.head32 {
+    width: 40%;
+}
+
+.head32 h3 {
+    margin-bottom: 30px;
+}
+
+.head321 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head322 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head323 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head32 button {
+    margin-left: 17%;
+    padding: 15px 0;
+    width: 70%;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: pink;
+    color: white;
+}
+
+.head324 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head326 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head9 {
+    background: pink;
+    color: white;
+}
+
+.head91 {
+    margin: 100px 100px 20px 100px;
+    padding-top: 40px;
+    font-size: 27px;
+}
+
+.head92 {
+    margin: 0 100px 0 100px;
+}
+
+tr td a {
+    color: #989898;
+}
+
+tr td a b {
+    font-size: 20px;
+    color: white;
+}
+
+hr {
+    margin: 50px 0 50px 0;
+    color: #989898;
+}
+
+.head93 {
+    margin: 50px 0 20px 0;
+    font-size: 27px;
+}
+
+.head94 a {
+    color: #989898;
+    margin-right: 15px;
+}
+
+.head95 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.head95 a {
+    margin: 10px;
+}
+
+.head952 {
+    font-size: 27px;
+    margin: 10px 0 10px 0;
+}
+
+.head953 {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.head954 {
+    font-size: 12px;
+    color: #989898;
+}
+
+.jss a {
+    margin-right: 25px;
+}
+
+.js a {
+    margin-right: 135px;
+}
+
+.add111 {
+    display: flex;
+    margin: 50px 150px;
+}
+
+
+
+@media (max-width: 600px) {
+    .head22 {
+        display: none;
+    }
+
+
+    .head23 a {
+        padding-left: 1px;
+        font-size: 10px;
+    }
+
+    .head21 {
+        padding-left: 10px;
+        font-size: 22px;
+    }
+
+    .head28 {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .head111 {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .head1111 div {
+        font-size: 15px;
+    }
+}
